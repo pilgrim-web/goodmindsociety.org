@@ -1,0 +1,34 @@
+[
+  {
+    "id": "cohort-01-complete",
+    "titleKey": "update.cohort1.title",
+    "excerptKey": "update.cohort1.excerpt",
+    "bodyKey": "update.cohort1.body",
+    "dateISO": "2026-01-20",
+    "tags": ["tag.program", "tag.community"]
+  },
+  {
+    "id": "partner-onboarding",
+    "titleKey": "update.partner.title",
+    "excerptKey": "update.partner.excerpt",
+    "bodyKey": "update.partner.body",
+    "dateISO": "2025-12-05",
+    "tags": ["tag.community"]
+  },
+  {
+    "id": "mentor-training",
+    "titleKey": "update.mentor.title",
+    "excerptKey": "update.mentor.excerpt",
+    "bodyKey": "update.mentor.body",
+    "dateISO": "2025-11-12",
+    "tags": ["tag.program"]
+  },
+  {
+    "id": "impact-baseline",
+    "titleKey": "update.impact.title",
+    "excerptKey": "update.impact.excerpt",
+    "bodyKey": "update.impact.body",
+    "dateISO": "2025-10-18",
+    "tags": ["tag.research"]
+  }
+]

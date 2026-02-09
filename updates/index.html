@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="lang-loading">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.updates.title">Updates | Good Mind Society</title>
+  <meta name="description" content="News and progress from the Good Mind Society community." data-i18n-attr="content:meta.updates.description">
+</head>
+<body>
+  <a class="skip-link" href="#main-content" data-i18n="aria.skipToContent">Skip to content</a>
+  <header class="site-header" data-partial="header"></header>
+
+  <main id="main-content">
+    <section class="hero hero--updates">
+      <div class="container hero__content">
+        <div>
+          <span class="badge" data-i18n="updates.hero.badge">Updates</span>
+          <h1 class="hero__title" data-i18n="updates.hero.title">Notes from the field</h1>
+          <p class="hero__subtitle" data-i18n="updates.hero.subtitle">Short updates from partners, mentors, and learners.</p>
+        </div>
+        <div class="hero__media">
+          <img src="/assets/img/hero-updates.jpg" alt="Notebook and tea on a desk" data-i18n-attr="alt:updates.hero.imageAlt">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="update-list" data-updates-list></div>
+      </div>
+    </section>
+
+    <div class="modal" id="update-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="update-modal-title">
+      <div class="modal__dialog">
+        <div class="modal__header">
+          <div>
+            <div class="update-card__date" data-update-date></div>
+            <h2 id="update-modal-title" data-update-title></h2>
+          </div>
+          <button class="modal__close" type="button" data-modal-close data-i18n="aria.close">Close</button>
+        </div>
+        <div class="tag-list" data-update-tags></div>
+        <p class="prose" data-update-body></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" data-partial="footer"></footer>
+  <script type="module" src="/assets/js/app.js"></script>
+</body>
+</html>

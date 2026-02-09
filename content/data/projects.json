@@ -1,0 +1,29 @@
+[
+  {
+    "id": "linkers",
+    "titleKey": "project.linkers.title",
+    "summaryKey": "project.linkers.summary",
+    "status": "status.active",
+    "featured": true,
+    "image": "/assets/img/hero-projects.jpg",
+    "link": "/get-involved/"
+  },
+  {
+    "id": "learning-circles",
+    "titleKey": "project.learningCircles.title",
+    "summaryKey": "project.learningCircles.summary",
+    "status": "status.pilot",
+    "featured": false,
+    "image": "/assets/img/hero-impact.jpg",
+    "link": "/contact/"
+  },
+  {
+    "id": "evaluation-lab",
+    "titleKey": "project.evaluationLab.title",
+    "summaryKey": "project.evaluationLab.summary",
+    "status": "status.planning",
+    "featured": false,
+    "image": "/assets/img/hero-about.jpg",
+    "link": "/contact/"
+  }
+]

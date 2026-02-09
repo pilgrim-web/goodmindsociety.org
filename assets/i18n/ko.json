@@ -1,0 +1,380 @@
+{
+  "site": {
+    "orgName": "Good Mind Society",
+    "tagline": "존엄을 지키는 교육, 증거에 기반한 돌봄.",
+    "cta": {
+      "donate": "기부하기",
+      "getInvolved": "참여하기",
+      "learnMore": "자세히 보기",
+      "contact": "문의하기",
+      "viewUpdates": "업데이트 보기"
+    },
+    "trust": {
+      "secure": "Stripe로 안전하게 결제됩니다.",
+      "receipts": "모든 기부에 영수증이 자동 발급됩니다.",
+      "privacy": "기부자 정보를 판매하거나 공유하지 않습니다."
+    }
+  },
+  "nav": {
+    "home": "홈",
+    "about": "소개",
+    "projects": "프로젝트",
+    "impact": "임팩트",
+    "getInvolved": "참여하기",
+    "donate": "기부",
+    "updates": "소식",
+    "contact": "연락처"
+  },
+  "aria": {
+    "skipToContent": "본문으로 건너뛰기",
+    "langSwitcher": "언어 선택",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "close": "닫기"
+  },
+  "meta": {
+    "home": {
+      "title": "Good Mind Society | 존엄을 지키는 교육",
+      "description": "Good Mind Society는 남는 교육 자원, 역량 경로, 커뮤니티 지원을 증거 기반의 따뜻함으로 연결합니다."
+    },
+    "about": {
+      "title": "소개 | Good Mind Society",
+      "description": "Good Mind Society의 시작, 가치, 거버넌스, FAQ를 소개합니다."
+    },
+    "projects": {
+      "title": "프로젝트 | Good Mind Society",
+      "description": "링커스 프로젝트와 향후 이니셔티브를 살펴보세요."
+    },
+    "impact": {
+      "title": "임팩트 | Good Mind Society",
+      "description": "초기 단계 임팩트 지표와 기부금 사용 투명성."
+    },
+    "getInvolved": {
+      "title": "참여하기 | Good Mind Society",
+      "description": "자원봉사, 파트너십, 학습자 후원으로 교육 접근성을 넓혀주세요."
+    },
+    "donate": {
+      "title": "기부 | Good Mind Society",
+      "description": "일시 또는 정기 기부로 학습을 지원하세요."
+    },
+    "updates": {
+      "title": "소식 | Good Mind Society",
+      "description": "Good Mind Society 커뮤니티의 최신 소식과 진행 상황."
+    },
+    "contact": {
+      "title": "연락처 | Good Mind Society",
+      "description": "파트너십, 봉사, 일반 문의를 환영합니다."
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "비영리 포트폴리오",
+      "title": "존엄을 지키는 여유 교육 연결.",
+      "subtitle": "간과되기 쉬운 학습 자원을 존중과 장기적 지원이 필요한 학습자에게 연결합니다.",
+      "imageAlt": "멘토와 학습자가 함께 협력하는 모습"
+    },
+    "pillars": {
+      "title": "세 가지 기둥",
+      "subtitle": "커뮤니티와 함께 성장하는 실용적 시스템에 집중합니다.",
+      "surplus": {
+        "title": "여유 교육",
+        "body": "양질의 학습 자료와 코칭을 필요한 곳에 연결합니다."
+      },
+      "skills": {
+        "title": "역량 경로",
+        "body": "호기심에서 자신감까지 이어지는 분명한 단계들을 설계합니다."
+      },
+      "community": {
+        "title": "커뮤니티 지원",
+        "body": "연민이 아닌 존중과 협업에 기반해 사람에게 투자합니다."
+      }
+    },
+    "featured": {
+      "eyebrow": "대표 프로그램",
+      "title": "링커스 프로젝트",
+      "body": "멘토와 지역 파트너, 학습자가 소규모 코호트로 연결되는 네트워크입니다.",
+      "cta": "링커스 프로젝트 알아보기"
+    },
+    "updates": {
+      "title": "최근 소식",
+      "subtitle": "현장과 파트너로부터의 최신 노트."
+    },
+    "cta": {
+      "title": "당신의 지지가 지속 가능한 학습을 만듭니다.",
+      "body": "기부는 프로그램을 무료이면서도 지역에 맞게 운영할 수 있게 합니다.",
+      "secondary": "참여 방법 보기"
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "우리 이야기",
+      "title": "Good Mind Society가 존재하는 이유",
+      "subtitle": "존중과 꾸준함, 커뮤니티 주도 학습이 사람을 성장시킨다는 사실에서 시작했습니다.",
+      "imageAlt": "커뮤니티 학습 모임"
+    },
+    "origin": {
+      "title": "시작 이야기",
+      "body": "Good Mind Society는 자원봉사 스터디 모임에서 출발했습니다. 접근성만이 문제가 아니라 구조와 격려가 중요하다는 것을 보았고, 다시 배울 수 있는 경로를 만들기 시작했습니다."
+    },
+    "values": {
+      "title": "우리의 가치",
+      "dignity": {
+        "title": "존엄 우선",
+        "body": "학습자의 주체성과 삶의 지혜를 존중합니다."
+      },
+      "evidence": {
+        "title": "증거에 기반한 따뜻함",
+        "body": "공감과 데이터를 함께 사용하며 아이디어를 검증합니다."
+      },
+      "growth": {
+        "title": "장기적 성장",
+        "body": "습관, 멘토, 커뮤니티 구조를 꾸준히 키워갑니다."
+      }
+    },
+    "governance": {
+      "title": "거버넌스",
+      "board": "이사회",
+      "advisors": "자문단",
+      "volunteers": "자원봉사자",
+      "boardBody": "책임과 방향성을 제공하는 커뮤니티 리더.",
+      "advisorsBody": "교육, 연구, 비영리 운영 전문가.",
+      "volunteersBody": "프로그램을 가능하게 하는 멘토와 코디네이터."
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": "누구를 지원하나요?",
+      "a1": "지역 파트너와 협력해 구조화된 교육 접근이 어려운 학습자를 지원합니다.",
+      "q2": "프로그램은 어떻게 선정하나요?",
+      "a2": "커뮤니티 주도성, 명확한 학습 목표, 멘토링 계획을 기준으로 우선순위를 정합니다.",
+      "q3": "원격으로도 봉사할 수 있나요?",
+      "a3": "가능합니다. 커리큘럼 검토, 멘토링, 번역 지원 등을 도와주세요."
+    }
+  },
+  "projects": {
+    "hero": {
+      "badge": "포트폴리오",
+      "title": "우리가 만드는 프로그램",
+      "subtitle": "지역 파트너와 함께 성장하는 집중형 이니셔티브.",
+      "imageAlt": "프로젝트 계획 회의"
+    },
+    "spotlight": {
+      "title": "링커스 프로젝트 하이라이트",
+      "body": "학습자, 멘토, 지역 가이드를 연결해 꾸준한 학습을 돕는 대표 프로그램입니다."
+    },
+    "comingSoon": {
+      "title": "추가 이니셔티브",
+      "body": "더 많은 프로그램을 커뮤니티 파트너와 함께 설계 중입니다."
+    }
+  },
+  "impact": {
+    "hero": {
+      "badge": "임팩트",
+      "title": "겸손하게 측정하는 변화",
+      "subtitle": "초기 지표와 솔직한 회고, 그리고 배운 것을 공유하려는 약속.",
+      "imageAlt": "임팩트 데이터 검토"
+    },
+    "metrics": {
+      "title": "초기 단계 지표"
+    },
+    "methodology": {
+      "title": "측정 방식",
+      "body": "이 지표는 초기 단계이며 프로그램이 성장하고 데이터 품질이 높아짐에 따라 개선됩니다."
+    },
+    "transparency": {
+      "title": "기부금 사용",
+      "programs": {
+        "title": "프로그램 운영",
+        "body": "멘토 교육, 커리큘럼 설계, 지역 파트너 지원."
+      },
+      "operations": {
+        "title": "운영",
+        "body": "도구, 물류, 안정적인 운영을 위한 최소 인프라."
+      },
+      "community": {
+        "title": "커뮤니티 지원금",
+        "body": "지역 학습 비용을 돕는 소규모 지원금."
+      }
+    }
+  },
+  "getInvolved": {
+    "hero": {
+      "badge": "함께하기",
+      "title": "학습 경로를 함께 만듭니다",
+      "subtitle": "멘토링, 파트너십, 후원으로 학습이 이어지도록 도와주세요.",
+      "imageAlt": "자원봉사 멘토링"
+    },
+    "volunteer": {
+      "title": "자원봉사 경로",
+      "step1": "소규모 코호트에서 멘토링하기.",
+      "step2": "학습 자료와 평가 검토.",
+      "step3": "번역 또는 지역 운영 지원."
+    },
+    "partner": {
+      "title": "파트너 경로",
+      "step1": "함께 학습 목표를 설계합니다.",
+      "step2": "지역에서 소규모 세션을 운영합니다.",
+      "step3": "피드백을 공유해 모델을 개선합니다."
+    },
+    "sponsor": {
+      "title": "학습자 후원",
+      "body": "학습 자료, 멘토 시간, 지역 지원에 사용됩니다.",
+      "cta": "기부로 후원하기"
+    }
+  },
+  "donate": {
+    "hero": {
+      "badge": "기부",
+      "title": "꾸준한 돌봄으로 학습을 지원하세요",
+      "subtitle": "당신의 속도와 목표에 맞는 기부 방법을 선택하세요.",
+      "imageAlt": "학습 자료를 들고 있는 손"
+    },
+    "options": {
+      "title": "기부 옵션",
+      "oneTime": {
+        "title": "일시 기부",
+        "body": "즉각적인 학습 필요와 프로그램 운영을 지원합니다.",
+        "amount": "$50"
+      },
+      "monthly": {
+        "title": "정기 기부",
+        "body": "매월 멘토링과 코호트 지속성을 돕습니다.",
+        "amount": "$20"
+      }
+    },
+    "custom": {
+      "title": "맞춤 금액",
+      "note": "사용 가능한 경우 맞춤 금액을 설정할 수 있습니다. 최소 $5.",
+      "comingSoon": "맞춤 금액은 Stripe Checkout Sessions에서 제공됩니다.",
+      "processing": "안전한 결제를 준비 중입니다...",
+      "minimum": "$5 이상을 입력해주세요.",
+      "error": "결제를 시작할 수 없습니다. 다시 시도해주세요.",
+      "amountLabel": "금액 (USD)",
+      "amountPlaceholder": "50",
+      "intervalLabel": "주기",
+      "intervalOneTime": "일시",
+      "intervalMonthly": "매월",
+      "submit": "계속하기"
+    },
+    "trust": {
+      "title": "기부자가 신뢰하는 이유",
+      "secure": "안전한 결제와 데이터 보호.",
+      "receipts": "세금 처리를 위한 즉시 영수증.",
+      "privacy": "프라이버시를 우선하는 소통."
+    }
+  },
+  "updates": {
+    "hero": {
+      "badge": "소식",
+      "title": "현장의 기록",
+      "subtitle": "파트너, 멘토, 학습자의 짧은 업데이트.",
+      "imageAlt": "책상 위 노트와 차"
+    },
+    "readMore": "자세히 읽기"
+  },
+  "contact": {
+    "hero": {
+      "badge": "연락처",
+      "title": "함께 대화해요",
+      "subtitle": "파트너십, 봉사, 질문을 환영합니다.",
+      "imageAlt": "열린 노트와 펜"
+    },
+    "form": {
+      "nameLabel": "이름",
+      "emailLabel": "이메일",
+      "messageLabel": "문의 내용을 알려주세요",
+      "submit": "메시지 보내기",
+      "success": "문의해 주셔서 감사합니다. 2영업일 내에 답변드리겠습니다.",
+      "honeypot": "이 필드를 비워두세요",
+      "namePlaceholder": "홍길동",
+      "emailPlaceholder": "you@example.org",
+      "messagePlaceholder": "어떤 도움을 원하시는지 알려주세요."
+    },
+    "direct": {
+      "title": "이메일",
+      "body": "이메일로 연락하려면"
+    },
+    "social": {
+      "title": "소셜 채널"
+    }
+  },
+  "footer": {
+    "legal": "법적 고지",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "copyright": "Good Mind Society. 모든 권리 보유.",
+    "navigation": "내비게이션",
+    "connect": "연결"
+  },
+  "misc": {
+    "learnMore": "자세히 보기",
+    "comingSoon": "준비 중",
+    "latestUpdates": "최근 소식",
+    "menu": "메뉴"
+  },
+  "status": {
+    "active": "운영 중",
+    "pilot": "파일럿",
+    "planning": "기획 중"
+  },
+  "tag": {
+    "community": "커뮤니티",
+    "program": "프로그램",
+    "research": "리서치"
+  },
+  "metrics": {
+    "learners": "지원한 학습자",
+    "cohorts": "운영된 코호트",
+    "mentors": "자원봉사 멘토",
+    "partners": "커뮤니티 파트너",
+    "noteLearners": "파일럿 코호트 기준",
+    "noteCohorts": "프로그램 시작 이후",
+    "noteMentors": "이번 분기 활동",
+    "notePartners": "지역 조직"
+  },
+  "social": {
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube"
+  },
+  "project": {
+    "linkers": {
+      "title": "링커스 프로젝트",
+      "summary": "멘토 주도의 코호트가 지역 기반 학습을 실천적으로 연결합니다."
+    },
+    "learningCircles": {
+      "title": "러닝 서클",
+      "summary": "지역 파트너와 함께 운영하는 소그룹 학습 세션입니다."
+    },
+    "evaluationLab": {
+      "title": "평가 랩",
+      "summary": "학습 성과에 도움이 되는 요소를 검증하는 연구 트랙입니다."
+    }
+  },
+  "update": {
+    "cohort1": {
+      "title": "코호트 01이 첫 사이클을 마쳤습니다",
+      "excerpt": "8주간의 학습을 마치며 출석률 92%를 기록했습니다.",
+      "body": "첫 번째 링커스 코호트가 8주간의 학습을 마쳤습니다. 멘토들은 자신감이 높아졌다고 보고했고, 학습자들은 다음 단계 준비를 시작했습니다."
+    },
+    "partner": {
+      "title": "새로운 커뮤니티 파트너 2곳 합류",
+      "excerpt": "서울과 부산의 지역 조직이 첫 코호트를 준비 중입니다.",
+      "body": "두 개의 파트너 기관이 다음 분기 러닝 서클을 시작합니다. 일정 조율, 모집, 지원 역할을 함께 설계하고 있습니다."
+    },
+    "mentor": {
+      "title": "2026년 멘토 교육을 업데이트했습니다",
+      "excerpt": "트라우마 인지 퍼실리테이션과 목표 추적을 추가했습니다.",
+      "body": "멘토 오리엔테이션에 심리적 안전, 책임 점검, 동료 학습 기법 모듈을 추가했습니다."
+    },
+    "impact": {
+      "title": "임팩트 기준선 조사 진행 중",
+      "excerpt": "초기 피드백을 수집해 평가 방식을 개선합니다.",
+      "body": "학습자와 멘토의 기준선 의견을 수집해 자신감과 기술 변화의 측정을 준비하고 있습니다."
+    }
+  },
+  "lang": {
+    "en": "EN",
+    "ko": "KO",
+    "es": "ES"
+  }
+}

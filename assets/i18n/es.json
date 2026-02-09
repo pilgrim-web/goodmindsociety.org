@@ -1,0 +1,380 @@
+{
+  "site": {
+    "orgName": "Good Mind Society",
+    "tagline": "Educacion con dignidad, guiada por evidencia y cuidado.",
+    "cta": {
+      "donate": "Donar",
+      "getInvolved": "Involucrate",
+      "learnMore": "Saber mas",
+      "contact": "Contactanos",
+      "viewUpdates": "Ver novedades"
+    },
+    "trust": {
+      "secure": "Pago seguro con Stripe.",
+      "receipts": "Recibos automaticos para cada donacion.",
+      "privacy": "No vendemos ni compartimos datos de donantes."
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "projects": "Proyectos",
+    "impact": "Impacto",
+    "getInvolved": "Involucrate",
+    "donate": "Donar",
+    "updates": "Novedades",
+    "contact": "Contacto"
+  },
+  "aria": {
+    "skipToContent": "Saltar al contenido",
+    "langSwitcher": "Selector de idioma",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Cerrar menu",
+    "close": "Cerrar"
+  },
+  "meta": {
+    "home": {
+      "title": "Good Mind Society | Educacion con dignidad",
+      "description": "Good Mind Society conecta educacion disponible, rutas de habilidades y apoyo comunitario con compasion basada en evidencia."
+    },
+    "about": {
+      "title": "Sobre nosotros | Good Mind Society",
+      "description": "Nuestra historia, valores, gobernanza y preguntas frecuentes."
+    },
+    "projects": {
+      "title": "Proyectos | Good Mind Society",
+      "description": "Conoce el Proyecto Linkers y nuestras iniciativas futuras."
+    },
+    "impact": {
+      "title": "Impacto | Good Mind Society",
+      "description": "Metricas iniciales de impacto y transparencia en el uso de donaciones."
+    },
+    "getInvolved": {
+      "title": "Involucrate | Good Mind Society",
+      "description": "Voluntariado, alianzas o patrocinio para ampliar el acceso educativo."
+    },
+    "donate": {
+      "title": "Donar | Good Mind Society",
+      "description": "Apoya la educacion con opciones de donacion unica o mensual."
+    },
+    "updates": {
+      "title": "Novedades | Good Mind Society",
+      "description": "Noticias y avances de la comunidad Good Mind Society."
+    },
+    "contact": {
+      "title": "Contacto | Good Mind Society",
+      "description": "Contacta a Good Mind Society para alianzas, voluntariado o consultas."
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Portafolio sin fines de lucro",
+      "title": "Educacion disponible, entregada con dignidad.",
+      "subtitle": "Conectamos recursos de aprendizaje con personas que merecen apoyo constante y respetuoso.",
+      "imageAlt": "Aprendices colaborando con mentores"
+    },
+    "pillars": {
+      "title": "Nuestros tres pilares",
+      "subtitle": "Nos enfocamos en sistemas practicos que crecen con la comunidad.",
+      "surplus": {
+        "title": "Educacion disponible",
+        "body": "Redirigimos materiales y acompanamiento de calidad hacia donde mas importan."
+      },
+      "skills": {
+        "title": "Rutas de habilidades",
+        "body": "Creamos pasos claros desde la curiosidad hasta la confianza."
+      },
+      "community": {
+        "title": "Apoyo comunitario",
+        "body": "Invertimos en personas, no en lastima, con dignidad y colaboracion."
+      }
+    },
+    "featured": {
+      "eyebrow": "Programa destacado",
+      "title": "Proyecto Linkers",
+      "body": "Una red de mentoria que conecta voluntarios, aliados locales y aprendices en cohortes pequenas.",
+      "cta": "Explorar Proyecto Linkers"
+    },
+    "updates": {
+      "title": "Novedades recientes",
+      "subtitle": "Notas frescas del equipo y socios comunitarios."
+    },
+    "cta": {
+      "title": "Tu apoyo hace posible el aprendizaje constante.",
+      "body": "Las donaciones mantienen los programas gratuitos, locales y adaptables.",
+      "secondary": "Ver formas de involucrarte"
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "Nuestra historia",
+      "title": "Por que existe Good Mind Society",
+      "subtitle": "Empezamos con una observacion simple: las personas prosperan cuando el aprendizaje es respetuoso y constante.",
+      "imageAlt": "Circulo de aprendizaje comunitario"
+    },
+    "origin": {
+      "title": "Historia de origen",
+      "body": "Good Mind Society comenzo como un grupo de estudio voluntario. Vimos que el acceso no era la unica barrera; la estructura y el animo importan igual. Ahora construimos rutas que hacen que aprender sea posible de nuevo."
+    },
+    "values": {
+      "title": "Nuestros valores",
+      "dignity": {
+        "title": "Dignidad primero",
+        "body": "Priorizamos la agencia y la sabiduria vivida de las personas."
+      },
+      "evidence": {
+        "title": "Compasion con evidencia",
+        "body": "Combinamos empatia con datos, probando ideas y aprendiendo en voz alta."
+      },
+      "growth": {
+        "title": "Crecimiento a largo plazo",
+        "body": "Invertimos en habitos, mentores y estructuras comunitarias duraderas."
+      }
+    },
+    "governance": {
+      "title": "Gobernanza",
+      "board": "Consejo",
+      "advisors": "Asesores",
+      "volunteers": "Voluntariado",
+      "boardBody": "Lideres comunitarios que aportan rendicion de cuentas y guia.",
+      "advisorsBody": "Especialistas en educacion, investigacion y operaciones sin fines de lucro.",
+      "volunteersBody": "Mentores y coordinadores que hacen posible los programas."
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "q1": "A quien apoyan?",
+      "a1": "Nos asociamos con organizaciones locales para apoyar a aprendices con acceso limitado a educacion estructurada.",
+      "q2": "Como eligen los programas?",
+      "a2": "Priorizamos programas con ownership comunitario, metas claras y planes de mentoria.",
+      "q3": "Puedo ser voluntario a distancia?",
+      "a3": "Si. Ayuda con revision de contenido, mentoria y traduccion."
+    }
+  },
+  "projects": {
+    "hero": {
+      "badge": "Portafolio",
+      "title": "Programas que estamos construyendo",
+      "subtitle": "Iniciativas enfocadas que crecen con aliados locales.",
+      "imageAlt": "Sesion de planificacion de proyecto"
+    },
+    "spotlight": {
+      "title": "Spotlight del Proyecto Linkers",
+      "body": "Nuestro programa principal conecta aprendices con mentores y guias locales para mantener el aprendizaje constante."
+    },
+    "comingSoon": {
+      "title": "Iniciativas adicionales",
+      "body": "Mas programas estan en diseno con socios comunitarios."
+    }
+  },
+  "impact": {
+    "hero": {
+      "badge": "Impacto",
+      "title": "Medir el progreso con humildad",
+      "subtitle": "Metricas iniciales, reflexion honesta y compromiso de compartir lo que funciona.",
+      "imageAlt": "Revision de datos de impacto"
+    },
+    "metrics": {
+      "title": "Metricas iniciales"
+    },
+    "methodology": {
+      "title": "Nota metodologica",
+      "body": "Estas metricas son iniciales y se ajustaran a medida que maduren los programas."
+    },
+    "transparency": {
+      "title": "Como se usan las donaciones",
+      "programs": {
+        "title": "Entrega de programas",
+        "body": "Capacitacion de mentores, diseno curricular y apoyo a aliados locales."
+      },
+      "operations": {
+        "title": "Operaciones",
+        "body": "Herramientas, logistica y la infraestructura minima para mantenernos confiables."
+      },
+      "community": {
+        "title": "Subvenciones comunitarias",
+        "body": "Pequenas subvenciones para cubrir costos locales de aprendizaje."
+      }
+    }
+  },
+  "getInvolved": {
+    "hero": {
+      "badge": "Sumate",
+      "title": "Construye rutas de aprendizaje con nosotros",
+      "subtitle": "Mentoria, alianzas o patrocinio ayudan a que los aprendices sigan avanzando.",
+      "imageAlt": "Sesion de mentoria voluntaria"
+    },
+    "volunteer": {
+      "title": "Caminos de voluntariado",
+      "step1": "Mentorea aprendices en cohortes enfocadas.",
+      "step2": "Revisa materiales y evaluaciones.",
+      "step3": "Apoya traduccion o coordinacion local."
+    },
+    "partner": {
+      "title": "Caminos de alianza",
+      "step1": "Co-disenamos metas de aprendizaje.",
+      "step2": "Acompanas sesiones locales de cohortes.",
+      "step3": "Compartes retroalimentacion para mejorar el modelo."
+    },
+    "sponsor": {
+      "title": "Patrocina a un aprendiz",
+      "body": "Tu donacion cubre materiales, tiempo de mentoria y apoyo local.",
+      "cta": "Patrocinar con donaciones"
+    }
+  },
+  "donate": {
+    "hero": {
+      "badge": "Donar",
+      "title": "Apoya el aprendizaje con cuidado constante",
+      "subtitle": "Elige la forma de donar que mejor se ajuste a ti.",
+      "imageAlt": "Manos sosteniendo materiales de estudio"
+    },
+    "options": {
+      "title": "Opciones de donacion",
+      "oneTime": {
+        "title": "Donacion unica",
+        "body": "Apoya necesidades inmediatas y la entrega del programa.",
+        "amount": "$50"
+      },
+      "monthly": {
+        "title": "Apoyo mensual",
+        "body": "Sostiene la mentoria y la continuidad de cohortes.",
+        "amount": "$20"
+      }
+    },
+    "custom": {
+      "title": "Monto personalizado",
+      "note": "Define un monto personalizado si esta habilitado. Minimo $5.",
+      "comingSoon": "Los montos personalizados estan disponibles con Stripe Checkout Sessions.",
+      "processing": "Creando tu pago seguro...",
+      "minimum": "Ingresa al menos $5.",
+      "error": "No pudimos iniciar el pago. Intentalo de nuevo.",
+      "amountLabel": "Monto (USD)",
+      "amountPlaceholder": "50",
+      "intervalLabel": "Intervalo",
+      "intervalOneTime": "Unica vez",
+      "intervalMonthly": "Mensual",
+      "submit": "Continuar"
+    },
+    "trust": {
+      "title": "Por que confian los donantes",
+      "secure": "Pago seguro y proteccion de datos.",
+      "receipts": "Recibos instantaneos para impuestos.",
+      "privacy": "Comunicacion con enfoque en privacidad."
+    }
+  },
+  "updates": {
+    "hero": {
+      "badge": "Novedades",
+      "title": "Notas desde el terreno",
+      "subtitle": "Actualizaciones breves de socios, mentores y aprendices.",
+      "imageAlt": "Cuaderno y te sobre un escritorio"
+    },
+    "readMore": "Leer mas"
+  },
+  "contact": {
+    "hero": {
+      "badge": "Contacto",
+      "title": "Trabajemos juntos",
+      "subtitle": "Recibimos ideas de alianza, voluntariado y preguntas.",
+      "imageAlt": "Cuaderno abierto y pluma"
+    },
+    "form": {
+      "nameLabel": "Tu nombre",
+      "emailLabel": "Correo electronico",
+      "messageLabel": "Como podemos ayudar?",
+      "submit": "Enviar mensaje",
+      "success": "Gracias por escribirnos. Respondemos en dos dias habiles.",
+      "honeypot": "Deja este campo en blanco",
+      "namePlaceholder": "Nombre Apellido",
+      "emailPlaceholder": "you@example.org",
+      "messagePlaceholder": "Cuentanos como deseas involucrarte."
+    },
+    "direct": {
+      "title": "Correo directo",
+      "body": "Prefieres email? Escribenos a"
+    },
+    "social": {
+      "title": "Canales sociales"
+    }
+  },
+  "footer": {
+    "legal": "Legal",
+    "privacy": "Politica de privacidad",
+    "terms": "Terminos de uso",
+    "copyright": "Good Mind Society. Todos los derechos reservados.",
+    "navigation": "Navegacion",
+    "connect": "Contacto"
+  },
+  "misc": {
+    "learnMore": "Saber mas",
+    "comingSoon": "Proximamente",
+    "latestUpdates": "Novedades recientes",
+    "menu": "Menu"
+  },
+  "status": {
+    "active": "Activo",
+    "pilot": "Piloto",
+    "planning": "Planificacion"
+  },
+  "tag": {
+    "community": "Comunidad",
+    "program": "Programa",
+    "research": "Investigacion"
+  },
+  "metrics": {
+    "learners": "Aprendices apoyados",
+    "cohorts": "Cohortes lanzadas",
+    "mentors": "Mentores voluntarios",
+    "partners": "Socios comunitarios",
+    "noteLearners": "En cohortes piloto",
+    "noteCohorts": "Desde el inicio del programa",
+    "noteMentors": "Activos este trimestre",
+    "notePartners": "Organizaciones locales"
+  },
+  "social": {
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube"
+  },
+  "project": {
+    "linkers": {
+      "title": "Proyecto Linkers",
+      "summary": "Cohortes guiadas por mentores que conectan a aprendices con educacion practica y local."
+    },
+    "learningCircles": {
+      "title": "Circulos de aprendizaje",
+      "summary": "Sesiones en grupos pequenos co-lideradas con socios locales."
+    },
+    "evaluationLab": {
+      "title": "Laboratorio de evaluacion",
+      "summary": "Una linea ligera de investigacion para probar que mejora los resultados."
+    }
+  },
+  "update": {
+    "cohort1": {
+      "title": "La cohorte 01 completo su primer ciclo",
+      "excerpt": "Las personas terminaron ocho semanas con 92% de asistencia.",
+      "body": "Nuestra primera cohorte Linkers completo ocho semanas de estudio guiado. Mentores reportan mayor confianza y ahora se prepara la siguiente fase."
+    },
+    "partner": {
+      "title": "Se sumaron dos socios comunitarios",
+      "excerpt": "Organizaciones locales en Seul y Busan preparan sus primeras cohortes.",
+      "body": "Dimos la bienvenida a dos socios que alojaran Circulos de aprendizaje el proximo trimestre. Estan alineando horarios, reclutamiento y roles de apoyo."
+    },
+    "mentor": {
+      "title": "Capacitacion de mentores renovada para 2026",
+      "excerpt": "El manual actualizado agrega facilitacion informada en trauma y seguimiento de metas.",
+      "body": "La orientacion ahora incluye seguridad psicologica, check-ins de responsabilidad y tecnicas de aprendizaje entre pares."
+    },
+    "impact": {
+      "title": "Encuesta base de impacto en marcha",
+      "excerpt": "Recopilamos retroalimentacion temprana para mejorar la evaluacion.",
+      "body": "Aprendices y mentores comparten reflexiones base para medir cambios en confianza y habilidades con el tiempo."
+    }
+  },
+  "lang": {
+    "en": "EN",
+    "ko": "KO",
+    "es": "ES"
+  }
+}

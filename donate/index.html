@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="lang-loading">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.donate.title">Donate | Good Mind Society</title>
+  <meta name="description" content="Support education with one-time or monthly giving options." data-i18n-attr="content:meta.donate.description">
+</head>
+<body>
+  <a class="skip-link" href="#main-content" data-i18n="aria.skipToContent">Skip to content</a>
+  <header class="site-header" data-partial="header"></header>
+
+  <main id="main-content">
+    <section class="hero hero--donate">
+      <div class="container hero__content">
+        <div>
+          <span class="badge" data-i18n="donate.hero.badge">Donate</span>
+          <h1 class="hero__title" data-i18n="donate.hero.title">Support learning with steady care</h1>
+          <p class="hero__subtitle" data-i18n="donate.hero.subtitle">Choose a giving option that fits your pace and goals.</p>
+        </div>
+        <div class="hero__media">
+          <img src="/assets/img/hero-donate.jpg" alt="Hands holding learning materials" data-i18n-attr="alt:donate.hero.imageAlt">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 data-i18n="donate.options.title">Donation options</h2>
+        </div>
+        <div class="grid grid-2 donate-options">
+          <article class="card donate-option">
+            <div class="card__meta" data-i18n="donate.options.oneTime.title">One-time gift</div>
+            <div class="donate-option__price" data-i18n="donate.options.oneTime.amount">$50</div>
+            <p data-i18n="donate.options.oneTime.body">Support immediate learning needs and program delivery.</p>
+            <div class="card__actions">
+              <a class="btn btn-primary" href="#" data-donate-link="oneTime" data-i18n="site.cta.donate">Donate</a>
+            </div>
+          </article>
+          <article class="card donate-option">
+            <div class="card__meta" data-i18n="donate.options.monthly.title">Monthly support</div>
+            <div class="donate-option__price" data-i18n="donate.options.monthly.amount">$20</div>
+            <p data-i18n="donate.options.monthly.body">Sustain mentoring and cohort continuity each month.</p>
+            <div class="card__actions">
+              <a class="btn btn-secondary" href="#" data-donate-link="monthly" data-i18n="site.cta.donate">Donate</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <form class="form custom-donate" data-donate-custom>
+          <h2 data-i18n="donate.custom.title">Custom amount</h2>
+          <p class="form-note" data-i18n="donate.custom.note">Set a custom amount if enabled. Minimum $5.</p>
+          <div class="form-group">
+            <label for="donate-amount" data-i18n="donate.custom.amountLabel">Amount (USD)</label>
+            <input id="donate-amount" name="amount" type="number" min="5" step="1" placeholder="50" data-i18n-attr="placeholder:donate.custom.amountPlaceholder" required>
+          </div>
+          <div class="form-group">
+            <label for="donate-interval" data-i18n="donate.custom.intervalLabel">Interval</label>
+            <select id="donate-interval" name="interval">
+              <option value="one_time" data-i18n="donate.custom.intervalOneTime">One-time</option>
+              <option value="monthly" data-i18n="donate.custom.intervalMonthly">Monthly</option>
+            </select>
+          </div>
+          <button class="btn btn-primary" type="submit" data-i18n="donate.custom.submit">Continue</button>
+          <p class="form-note" data-donate-message aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 data-i18n="donate.trust.title">Why donors trust us</h2>
+        </div>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3 class="card__title" data-i18n="donate.trust.secure">Secure payment and data protection.</h3>
+          </article>
+          <article class="card">
+            <h3 class="card__title" data-i18n="donate.trust.receipts">Instant receipts for tax purposes.</h3>
+          </article>
+          <article class="card">
+            <h3 class="card__title" data-i18n="donate.trust.privacy">Privacy-first donor communications.</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" data-partial="footer"></footer>
+  <script type="module" src="/assets/js/app.js"></script>
+</body>
+</html>

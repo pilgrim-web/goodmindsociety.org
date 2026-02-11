@@ -199,14 +199,19 @@
     </footer>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", () => {
-          const hash = window.location.hash;
-          if (hash && hash.includes("recovery_token")) {
+      (function () {
+        if (!window.netlifyIdentity) return;
+
+        window.netlifyIdentity.on("init", function () {
+          if (window.location.hash && window.location.hash.includes("recovery_token")) {
             window.netlifyIdentity.open();
           }
         });
-      }
+
+        if (window.location.hash && window.location.hash.includes("recovery_token")) {
+          window.netlifyIdentity.open();
+        }
+      })();
     </script>
   </body>
 </html>

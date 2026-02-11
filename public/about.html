@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="about.hero.title">About Us</title>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <script defer src="/assets/js/main.js"></script>
+    <style>
+      :root {
+        --hero-image-about: none;
+      }
+
+      .page-about .hero__media {
+        background-image:
+          var(--hero-image-about),
+          linear-gradient(180deg, var(--hero-fill), var(--hero-fill));
+      }
+    </style>
+  </head>
+  <body class="page-about">
+    <a class="skip-link" href="#main" data-i18n="common.skip_to_content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="/" data-lang-link aria-label="Good Mind Society">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span data-i18n="site.name">Good Mind Society</span>
+        </a>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          data-nav-toggle
+        >
+          <span class="sr-only" data-i18n="common.menu_toggle">Toggle navigation</span>
+          <span aria-hidden="true">☰</span>
+        </button>
+
+        <nav id="primary-nav" class="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="/" data-lang-link data-i18n="nav.home">Home</a></li>
+            <li><a href="/about/" data-lang-link data-i18n="nav.about">About</a></li>
+            <li><a href="/linkers/" data-lang-link data-i18n="nav.linkers">Linkers 2.0</a></li>
+            <li><a href="/contact/" data-lang-link data-i18n="nav.contact">Contact</a></li>
+            <li><a href="/get-involved/" data-lang-link data-i18n="nav.get_involved">Get Involved</a></li>
+            <li class="language-control">
+              <label for="language-select" data-i18n="nav.language">Language</label>
+              <select id="language-select" class="language-select" data-language-select aria-label="Language">
+                <option value="en" data-i18n="lang.en">Eng</option>
+                <option value="ko" data-i18n="lang.ko">Korean</option>
+                <option value="es" data-i18n="lang.es">Spanish</option>
+                <option value="zh" data-i18n="lang.zh">Chinese</option>
+              </select>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__content stack reveal">
+            <h1 data-i18n="about.hero.title">About Us</h1>
+            <p data-i18n="about.hero.subtitle">Who we are and why we serve.</p>
+          </div>
+          <div
+            class="hero__media reveal"
+            role="img"
+            data-i18n="hero.common.media_label"
+            data-i18n-attr="aria-label|title"
+            aria-label="Hero media panel"
+          ></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header stack reveal">
+            <h2 data-i18n="about.introduce.title">Introduce us</h2>
+            <p data-i18n="about.introduce.lead">A simple introduction in 50 short sentences.</p>
+          </div>
+          <ol class="card stack reveal">
+            <li>We are a nonprofit focused on human dignity.</li>
+            <li>We believe learning should be practical and respectful.</li>
+            <li>We work with communities, not above them.</li>
+            <li>We listen before we design programs.</li>
+            <li>We begin with local priorities.</li>
+            <li>We value consistency over quick wins.</li>
+            <li>We keep our methods simple and clear.</li>
+            <li>We aim for long-term usefulness.</li>
+            <li>We support learners of different ages.</li>
+            <li>We welcome diverse backgrounds and perspectives.</li>
+            <li>We encourage thoughtful communication.</li>
+            <li>We avoid promises we cannot keep.</li>
+            <li>We define progress through daily practice.</li>
+            <li>We build trust through reliable follow-up.</li>
+            <li>We coordinate with local partners carefully.</li>
+            <li>We see education as shared responsibility.</li>
+            <li>We create spaces where questions are welcome.</li>
+            <li>We use language that is direct and kind.</li>
+            <li>We keep people informed about next steps.</li>
+            <li>We prioritize safety and respect in every meeting.</li>
+            <li>We design programs that can adapt over time.</li>
+            <li>We document what works and what does not.</li>
+            <li>We improve through reflection and feedback.</li>
+            <li>We support mentors with practical guidance.</li>
+            <li>We support families with clear resources.</li>
+            <li>We help organizations align around shared goals.</li>
+            <li>We encourage collaboration across sectors.</li>
+            <li>We keep costs transparent and intentional.</li>
+            <li>We protect mission focus when making decisions.</li>
+            <li>We build partnerships on trust and clarity.</li>
+            <li>We treat every participant with care.</li>
+            <li>We respect time and commitments.</li>
+            <li>We celebrate steady effort.</li>
+            <li>We avoid unnecessary complexity.</li>
+            <li>We seek solutions that can be maintained.</li>
+            <li>We align strategy with real community needs.</li>
+            <li>We believe good systems should serve people.</li>
+            <li>We believe progress can be calm and deliberate.</li>
+            <li>We hold ourselves accountable to our values.</li>
+            <li>We encourage responsible leadership.</li>
+            <li>We invest in capability, not dependency.</li>
+            <li>We prefer shared learning to one-way instruction.</li>
+            <li>We support thoughtful action in difficult moments.</li>
+            <li>We welcome volunteers ready to serve with humility.</li>
+            <li>We believe small actions can shape strong futures.</li>
+            <li>We build routines that people can sustain.</li>
+            <li>We measure outcomes with honesty.</li>
+            <li>We remain open to better approaches.</li>
+            <li>We continue learning while we serve.</li>
+            <li>We exist to help communities thrive with dignity.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header stack reveal">
+            <h2>Framework</h2>
+            <p>Our work is grounded in practical resources, capable teams, and a clear philosophy.</p>
+          </div>
+          <div class="grid grid--3">
+            <article class="card stack reveal">
+              <h3>Resources</h3>
+              <p>We provide simple tools, guides, and shared materials that local teams can use immediately.</p>
+            </article>
+            <article class="card stack reveal">
+              <h3>Capability</h3>
+              <p>We strengthen people through mentoring, repetition, and small systems that support daily execution.</p>
+            </article>
+            <article class="card stack reveal">
+              <h3>Philosophy</h3>
+              <p>We work with humility, responsibility, and long-term commitment to meaningful community progress.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <section>
+            <h2 class="footer-title" data-i18n="footer.info">Information</h2>
+            <p data-i18n="footer.mission">Cultivating good minds through education and service.</p>
+            <p>
+              <a href="/contact/" data-lang-link data-i18n="footer.email_label">Contact</a>
+            </p>
+          </section>
+
+          <section>
+            <h2 class="footer-title" data-i18n="footer.contents">Contents</h2>
+            <ul class="footer-links">
+              <li><a href="/" data-lang-link data-i18n="nav.home">Home</a></li>
+              <li><a href="/about/" data-lang-link data-i18n="nav.about">About</a></li>
+              <li><a href="/linkers/" data-lang-link data-i18n="nav.linkers">Linkers 2.0</a></li>
+              <li><a href="/contact/" data-lang-link data-i18n="nav.contact">Contact</a></li>
+              <li><a href="/get-involved/" data-lang-link data-i18n="nav.get_involved">Get Involved</a></li>
+              <li><a href="/blog/" data-lang-link data-i18n="blog.hero.title">Blog</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="footer-title" data-i18n="footer.legal">Legal</h2>
+            <ul class="footer-links">
+              <li><a href="#" data-i18n="footer.privacy">Privacy Policy</a></li>
+              <li><a href="#" data-i18n="footer.terms">Terms of Service</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="footer-title" data-i18n="footer.social">SNS</h2>
+            <ul class="footer-links">
+              <li><a href="#" data-i18n="footer.instagram">Instagram</a></li>
+              <li><a href="#" data-i18n="footer.youtube">YouTube</a></li>
+              <li><a href="#" data-i18n="footer.facebook">Facebook</a></li>
+            </ul>
+          </section>
+        </div>
+
+        <p class="footer-bottom">
+          <span data-i18n="site.name">Good Mind Society</span>
+          <span data-i18n="footer.rights">All rights reserved.</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

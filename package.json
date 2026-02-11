@@ -1,0 +1,13 @@
+{
+  "name": "goodmindsociety-static",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-blog-index.mjs",
+    "dev": "echo 'No local dev server configured. Open files directly or use Netlify CLI if desired.'"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

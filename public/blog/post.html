@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="blog.hero.title">Blog</title>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <script defer src="/assets/js/main.js"></script>
+    <style>
+      :root {
+        --hero-image-blog: none;
+      }
+
+      .page-blog .hero__media {
+        background-image:
+          var(--hero-image-blog),
+          linear-gradient(180deg, var(--hero-fill), var(--hero-fill));
+      }
+    </style>
+  </head>
+  <body class="page-blog">
+    <a class="skip-link" href="#main" data-i18n="common.skip_to_content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="/" data-lang-link aria-label="Good Mind Society">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span data-i18n="site.name">Good Mind Society</span>
+        </a>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          data-nav-toggle
+        >
+          <span class="sr-only" data-i18n="common.menu_toggle">Toggle navigation</span>
+          <span aria-hidden="true">☰</span>
+        </button>
+
+        <nav id="primary-nav" class="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="/" data-lang-link data-i18n="nav.home">Home</a></li>
+            <li><a href="/about/" data-lang-link data-i18n="nav.about">About</a></li>
+            <li><a href="/linkers/" data-lang-link data-i18n="nav.linkers">Linkers 2.0</a></li>
+            <li><a href="/contact/" data-lang-link data-i18n="nav.contact">Contact</a></li>
+            <li><a href="/get-involved/" data-lang-link data-i18n="nav.get_involved">Get Involved</a></li>
+            <li class="language-control">
+              <label for="language-select" data-i18n="nav.language">Language</label>
+              <select id="language-select" class="language-select" data-language-select aria-label="Language">
+                <option value="en" data-i18n="lang.en">Eng</option>
+                <option value="ko" data-i18n="lang.ko">Korean</option>
+                <option value="es" data-i18n="lang.es">Spanish</option>
+                <option value="zh" data-i18n="lang.zh">Chinese</option>
+              </select>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" data-blog-post>
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__content stack reveal">
+            <h1 data-post-title data-i18n="common.loading">Loading...</h1>
+            <p class="form-note" data-post-date></p>
+            <p data-post-excerpt></p>
+            <p>
+              <a href="/blog/" data-lang-link>Back to blog</a>
+            </p>
+          </div>
+          <div
+            class="hero__media reveal"
+            role="img"
+            data-i18n="hero.common.media_label"
+            data-i18n-attr="aria-label|title"
+            aria-label="Hero media panel"
+          ></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <article class="card stack reveal" data-post-body></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <section>
+            <h2 class="footer-title" data-i18n="footer.info">Information</h2>
+            <p data-i18n="footer.mission">Cultivating good minds through education and service.</p>
+            <p>
+              <a href="/contact/" data-lang-link data-i18n="footer.email_label">Contact</a>
+            </p>
+          </section>
+
+          <section>
+            <h2 class="footer-title" data-i18n="footer.contents">Contents</h2>
+            <ul class="footer-links">
+              <li><a href="/" data-lang-link data-i18n="nav.home">Home</a></li>
+              <li><a href="/about/" data-lang-link data-i18n="nav.about">About</a></li>
+              <li><a href="/linkers/" data-lang-link data-i18n="nav.linkers">Linkers 2.0</a></li>
+              <li><a href="/contact/" data-lang-link data-i18n="nav.contact">Contact</a></li>
+              <li><a href="/get-involved/" data-lang-link data-i18n="nav.get_involved">Get Involved</a></li>
+              <li><a href="/blog/" data-lang-link data-i18n="blog.hero.title">Blog</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="footer-title" data-i18n="footer.legal">Legal</h2>
+            <ul class="footer-links">
+              <li><a href="#" data-i18n="footer.privacy">Privacy Policy</a></li>
+              <li><a href="#" data-i18n="footer.terms">Terms of Service</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="footer-title" data-i18n="footer.social">SNS</h2>
+            <ul class="footer-links">
+              <li><a href="#" data-i18n="footer.instagram">Instagram</a></li>
+              <li><a href="#" data-i18n="footer.youtube">YouTube</a></li>
+              <li><a href="#" data-i18n="footer.facebook">Facebook</a></li>
+            </ul>
+          </section>
+        </div>
+
+        <p class="footer-bottom">
+          <span data-i18n="site.name">Good Mind Society</span>
+          <span data-i18n="footer.rights">All rights reserved.</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

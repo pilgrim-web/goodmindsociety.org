@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "GoodMind Society Admin"
-AuthUserFile /home/USERNAME/public_html/admin/.htpasswd
-Require user admin1 admin2 admin3

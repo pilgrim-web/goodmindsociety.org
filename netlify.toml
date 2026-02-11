@@ -1,0 +1,248 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 302
+
+# English trailing slash normalization
+[[redirects]]
+  from = "/en"
+  to = "/en/"
+  status = 301
+[[redirects]]
+  from = "/en/about"
+  to = "/en/about/"
+  status = 301
+[[redirects]]
+  from = "/en/linkers"
+  to = "/en/linkers/"
+  status = 301
+[[redirects]]
+  from = "/en/contact"
+  to = "/en/contact/"
+  status = 301
+[[redirects]]
+  from = "/en/get-involved"
+  to = "/en/get-involved/"
+  status = 301
+[[redirects]]
+  from = "/en/blog"
+  to = "/en/blog/"
+  status = 301
+[[redirects]]
+  from = "/en/blog/post"
+  to = "/en/blog/post/"
+  status = 301
+
+# Korean trailing slash normalization
+[[redirects]]
+  from = "/ko"
+  to = "/ko/"
+  status = 301
+[[redirects]]
+  from = "/ko/about"
+  to = "/ko/about/"
+  status = 301
+[[redirects]]
+  from = "/ko/linkers"
+  to = "/ko/linkers/"
+  status = 301
+[[redirects]]
+  from = "/ko/contact"
+  to = "/ko/contact/"
+  status = 301
+[[redirects]]
+  from = "/ko/get-involved"
+  to = "/ko/get-involved/"
+  status = 301
+[[redirects]]
+  from = "/ko/blog"
+  to = "/ko/blog/"
+  status = 301
+[[redirects]]
+  from = "/ko/blog/post"
+  to = "/ko/blog/post/"
+  status = 301
+
+# Spanish trailing slash normalization
+[[redirects]]
+  from = "/es"
+  to = "/es/"
+  status = 301
+[[redirects]]
+  from = "/es/about"
+  to = "/es/about/"
+  status = 301
+[[redirects]]
+  from = "/es/linkers"
+  to = "/es/linkers/"
+  status = 301
+[[redirects]]
+  from = "/es/contact"
+  to = "/es/contact/"
+  status = 301
+[[redirects]]
+  from = "/es/get-involved"
+  to = "/es/get-involved/"
+  status = 301
+[[redirects]]
+  from = "/es/blog"
+  to = "/es/blog/"
+  status = 301
+[[redirects]]
+  from = "/es/blog/post"
+  to = "/es/blog/post/"
+  status = 301
+
+# Chinese trailing slash normalization
+[[redirects]]
+  from = "/zh"
+  to = "/zh/"
+  status = 301
+[[redirects]]
+  from = "/zh/about"
+  to = "/zh/about/"
+  status = 301
+[[redirects]]
+  from = "/zh/linkers"
+  to = "/zh/linkers/"
+  status = 301
+[[redirects]]
+  from = "/zh/contact"
+  to = "/zh/contact/"
+  status = 301
+[[redirects]]
+  from = "/zh/get-involved"
+  to = "/zh/get-involved/"
+  status = 301
+[[redirects]]
+  from = "/zh/blog"
+  to = "/zh/blog/"
+  status = 301
+[[redirects]]
+  from = "/zh/blog/post"
+  to = "/zh/blog/post/"
+  status = 301
+
+# English rewrites
+[[redirects]]
+  from = "/en/"
+  to = "/index.html"
+  status = 200
+[[redirects]]
+  from = "/en/about/"
+  to = "/about.html"
+  status = 200
+[[redirects]]
+  from = "/en/linkers/"
+  to = "/linkers.html"
+  status = 200
+[[redirects]]
+  from = "/en/contact/"
+  to = "/contact.html"
+  status = 200
+[[redirects]]
+  from = "/en/get-involved/"
+  to = "/get-involved.html"
+  status = 200
+[[redirects]]
+  from = "/en/blog/"
+  to = "/blog/index.html"
+  status = 200
+[[redirects]]
+  from = "/en/blog/post/"
+  to = "/blog/post.html"
+  status = 200
+
+# Korean rewrites
+[[redirects]]
+  from = "/ko/"
+  to = "/index.html"
+  status = 200
+[[redirects]]
+  from = "/ko/about/"
+  to = "/about.html"
+  status = 200
+[[redirects]]
+  from = "/ko/linkers/"
+  to = "/linkers.html"
+  status = 200
+[[redirects]]
+  from = "/ko/contact/"
+  to = "/contact.html"
+  status = 200
+[[redirects]]
+  from = "/ko/get-involved/"
+  to = "/get-involved.html"
+  status = 200
+[[redirects]]
+  from = "/ko/blog/"
+  to = "/blog/index.html"
+  status = 200
+[[redirects]]
+  from = "/ko/blog/post/"
+  to = "/blog/post.html"
+  status = 200
+
+# Spanish rewrites
+[[redirects]]
+  from = "/es/"
+  to = "/index.html"
+  status = 200
+[[redirects]]
+  from = "/es/about/"
+  to = "/about.html"
+  status = 200
+[[redirects]]
+  from = "/es/linkers/"
+  to = "/linkers.html"
+  status = 200
+[[redirects]]
+  from = "/es/contact/"
+  to = "/contact.html"
+  status = 200
+[[redirects]]
+  from = "/es/get-involved/"
+  to = "/get-involved.html"
+  status = 200
+[[redirects]]
+  from = "/es/blog/"
+  to = "/blog/index.html"
+  status = 200
+[[redirects]]
+  from = "/es/blog/post/"
+  to = "/blog/post.html"
+  status = 200
+
+# Chinese rewrites
+[[redirects]]
+  from = "/zh/"
+  to = "/index.html"
+  status = 200
+[[redirects]]
+  from = "/zh/about/"
+  to = "/about.html"
+  status = 200
+[[redirects]]
+  from = "/zh/linkers/"
+  to = "/linkers.html"
+  status = 200
+[[redirects]]
+  from = "/zh/contact/"
+  to = "/contact.html"
+  status = 200
+[[redirects]]
+  from = "/zh/get-involved/"
+  to = "/get-involved.html"
+  status = 200
+[[redirects]]
+  from = "/zh/blog/"
+  to = "/blog/index.html"
+  status = 200
+[[redirects]]
+  from = "/zh/blog/post/"
+  to = "/blog/post.html"
+  status = 200

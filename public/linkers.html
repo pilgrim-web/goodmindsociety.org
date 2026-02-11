@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="linkers.hero.title">Linkers 2.0</title>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <script defer src="/assets/js/main.js"></script>
+    <style>
+      :root {
+        --hero-image-linkers: none;
+      }
+
+      .page-linkers .hero__media {
+        background-image:
+          var(--hero-image-linkers),
+          linear-gradient(180deg, var(--hero-fill), var(--hero-fill));
+      }
+    </style>
+  </head>
+  <body class="page-linkers">
+    <a class="skip-link" href="#main" data-i18n="common.skip_to_content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="/" data-lang-link aria-label="Good Mind Society">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span data-i18n="site.name">Good Mind Society</span>
+        </a>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+          data-nav-toggle
+        >
+          <span class="sr-only" data-i18n="common.menu_toggle">Toggle navigation</span>
+          <span aria-hidden="true">☰</span>
+        </button>
+
+        <nav id="primary-nav" class="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="/" data-lang-link data-i18n="nav.home">Home</a></li>
+            <li><a href="/about/" data-lang-link data-i18n="nav.about">About</a></li>
+            <li><a href="/linkers/" data-lang-link data-i18n="nav.linkers">Linkers 2.0</a></li>
+            <li><a href="/contact/" data-lang-link data-i18n="nav.contact">Contact</a></li>
+            <li><a href="/get-involved/" data-lang-link data-i18n="nav.get_involved">Get Involved</a></li>
+            <li class="language-control">
+              <label for="language-select" data-i18n="nav.language">Language</label>
+              <select id="language-select" class="language-select" data-language-select aria-label="Language">
+                <option value="en" data-i18n="lang.en">Eng</option>
+                <option value="ko" data-i18n="lang.ko">Korean</option>
+                <option value="es" data-i18n="lang.es">Spanish</option>
+                <option value="zh" data-i18n="lang.zh">Chinese</option>
+              </select>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__content stack reveal">
+            <h1 data-i18n="linkers.hero.title">Linkers 2.0</h1>
+            <p data-i18n="linkers.hero.subtitle">Connecting education, mentorship, and opportunity.</p>
+          </div>
+          <div
+            class="hero__media reveal"
+            role="img"
+            data-i18n="hero.common.media_label"
+            data-i18n-attr="aria-label|title"
+            aria-label="Hero media panel"
+          ></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid grid--2">
+            <article class="card stack reveal">
+              <h2 data-i18n="linkers.how_start.title">How we started</h2>
+              <p data-i18n="linkers.how_start.body">
+                We begin by listening to local needs and defining realistic first steps.
+              </p>
+            </article>
+            <article class="card stack reveal">
+              <h2 data-i18n="linkers.why.title">Why we do this</h2>
+              <p data-i18n="linkers.why.body">
+                We believe communities need steady support that is practical and human-centered.
+              </p>
+            </article>
+            <article class="card stack reveal">
+              <h2 data-i18n="linkers.help.title">What it helps</h2>
+              <p data-i18n="linkers.help.body">
+                It can support confidence, access to learning, and long-term participation.
+              </p>
+            </article>
+            <article class="card stack reveal">
+              <h2 data-i18n="linkers.benefits.title">Who benefits</h2>
+              <p data-i18n="linkers.benefits.body">
+                Students, families, volunteers, and partner organizations benefit together.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header stack reveal">
+            <h2 data-i18n="Linkers timeline">Linkers timeline</h2>
+            <p data-i18n="Simple four-stage pathway">Simple four-stage pathway</p>
+          </div>
+          <div class="grid grid--2">
+            <article class="card stack reveal">
+              <h3 data-i18n="Stage 1 Identify">Stage 1 Identify</h3>
+              <p data-i18n="Identify local needs and define priorities.">Identify local needs and define priorities.</p>
+            </article>
+            <article class="card stack reveal">
+              <h3 data-i18n="Stage 2 Train">Stage 2 Train</h3>
+              <p data-i18n="Train volunteers and partners with practical methods.">
+                Train volunteers and partners with practical methods.
+              </p>
+            </article>
+            <article class="card stack reveal">
+              <h3 data-i18n="Stage 3 Mentor">Stage 3 Mentor</h3>
+              <p data-i18n="Mentor learners through steady guidance and feedback.">
+                Mentor learners through steady guidance and feedback.
+              </p>
+            </article>
+            <article class="card stack reveal">
+              <h3 data-i18n="Stage 4 Connect">Stage 4 Connect</h3>
+              <p data-i18n="Connect families and organizations for long-term support.">
+                Connect families and organizations for long-term support.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="card stack reveal">
+            <h2 data-i18n="Ready to support Linkers 2.0?">Ready to support Linkers 2.0?</h2>
+            <p data-i18n="Join as a volunteer or contribute to keep the pathway accessible.">
+              Join as a volunteer or contribute to keep the pathway accessible.
+            </p>
+            <div class="stack" style="grid-auto-flow: column; justify-content: start; gap: 0.75rem">
+              <a class="btn btn-secondary" href="/get-involved/" data-lang-link data-i18n="nav.get_involved"
+                >Get Involved</a
+              >
+              <a
+                class="btn btn-primary"
+                href="https://donate.stripe.com/5kQ28q0THewy9TufVR6J201"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="donate.cta"
+                >Donate</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <section>
+            <h2 class="footer-title" data-i18n="footer.info">Information</h2>
+            <p data-i18n="footer.mission">Cultivating good minds through education and service.</p>
+            <p>
+              <a href="/contact/" data-lang-link data-i18n="footer.email_label">Contact</a>
+            </p>
+          </section>
+
+          <section>
+            <h2 class="footer-title" data-i18n="footer.contents">Contents</h2>
+            <ul class="footer-links">
+              <li><a href="/" data-lang-link data-i18n="nav.home">Home</a></li>
+              <li><a href="/about/" data-lang-link data-i18n="nav.about">About</a></li>
+              <li><a href="/linkers/" data-lang-link data-i18n="nav.linkers">Linkers 2.0</a></li>
+              <li><a href="/contact/" data-lang-link data-i18n="nav.contact">Contact</a></li>
+              <li><a href="/get-involved/" data-lang-link data-i18n="nav.get_involved">Get Involved</a></li>
+              <li><a href="/blog/" data-lang-link data-i18n="blog.hero.title">Blog</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="footer-title" data-i18n="footer.legal">Legal</h2>
+            <ul class="footer-links">
+              <li><a href="#" data-i18n="footer.privacy">Privacy Policy</a></li>
+              <li><a href="#" data-i18n="footer.terms">Terms of Service</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="footer-title" data-i18n="footer.social">SNS</h2>
+            <ul class="footer-links">
+              <li><a href="#" data-i18n="footer.instagram">Instagram</a></li>
+              <li><a href="#" data-i18n="footer.youtube">YouTube</a></li>
+              <li><a href="#" data-i18n="footer.facebook">Facebook</a></li>
+            </ul>
+          </section>
+        </div>
+
+        <p class="footer-bottom">
+          <span data-i18n="site.name">Good Mind Society</span>
+          <span data-i18n="footer.rights">All rights reserved.</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

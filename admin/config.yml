@@ -1,0 +1,59 @@
+# Netlify CMS / Decap CMS setup notes:
+# 1) Enable Netlify Identity for this site.
+# 2) Enable Git Gateway in Netlify Identity settings.
+# 3) Create and invite 3 users in Netlify Identity.
+# CMS user accounts are managed in Netlify Identity, not hardcoded here.
+
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: false
+
+media_folder: public/assets/img
+public_folder: /assets/img
+
+collections:
+  - name: blog
+    label: Blog
+    folder: content/blog
+    create: true
+    delete: true
+    editor:
+      preview: false
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: Date
+        name: date
+        widget: datetime
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+      - label: Slug (optional override)
+        name: slug
+        widget: string
+        required: false
+      - label: Title
+        name: title
+        widget: object
+        fields:
+          - { label: English, name: en, widget: string }
+          - { label: Korean, name: ko, widget: string }
+          - { label: Spanish, name: es, widget: string }
+          - { label: Chinese, name: zh, widget: string }
+      - label: Excerpt
+        name: excerpt
+        widget: object
+        fields:
+          - { label: English, name: en, widget: text }
+          - { label: Korean, name: ko, widget: text }
+          - { label: Spanish, name: es, widget: text }
+          - { label: Chinese, name: zh, widget: text }
+      - label: Body
+        name: body
+        widget: object
+        fields:
+          - { label: English, name: en, widget: markdown }
+          - { label: Korean, name: ko, widget: markdown }
+          - { label: Spanish, name: es, widget: markdown }
+          - { label: Chinese, name: zh, widget: markdown }

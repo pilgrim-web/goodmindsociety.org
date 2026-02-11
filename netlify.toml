@@ -6,124 +6,150 @@
 # Language-prefixed rewrites (NO 301/302 redirects)
 # --------------------
 
-# Home
-[[redirects]]
-  from = "/en/*"
-  to = "/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/ko/*"
-  to = "/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/es/*"
-  to = "/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/zh/*"
-  to = "/index.html"
-  status = 200
-
-# Explicit page rewrites (keep these ABOVE the catch-alls if you prefer strict mapping)
-[[redirects]]
-  from = "/en/about/*"
-  to = "/about.html"
-  status = 200
-[[redirects]]
-  from = "/en/linkers/*"
-  to = "/linkers.html"
-  status = 200
-[[redirects]]
-  from = "/en/contact/*"
-  to = "/contact.html"
-  status = 200
-[[redirects]]
-  from = "/en/get-involved/*"
-  to = "/get-involved.html"
-  status = 200
-[[redirects]]
-  from = "/en/blog/*"
-  to = "/blog/index.html"
-  status = 200
+# English (specific first)
 [[redirects]]
   from = "/en/blog/post/*"
   to = "/blog/post.html"
   status = 200
 
 [[redirects]]
-  from = "/ko/about/*"
-  to = "/about.html"
-  status = 200
-[[redirects]]
-  from = "/ko/linkers/*"
-  to = "/linkers.html"
-  status = 200
-[[redirects]]
-  from = "/ko/contact/*"
-  to = "/contact.html"
-  status = 200
-[[redirects]]
-  from = "/ko/get-involved/*"
-  to = "/get-involved.html"
-  status = 200
-[[redirects]]
-  from = "/ko/blog/*"
+  from = "/en/blog/*"
   to = "/blog/index.html"
   status = 200
+
+[[redirects]]
+  from = "/en/about/*"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/linkers/*"
+  to = "/linkers.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/contact/*"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/get-involved/*"
+  to = "/get-involved.html"
+  status = 200
+
+# English catch-all LAST
+[[redirects]]
+  from = "/en/*"
+  to = "/index.html"
+  status = 200
+
+# Korean (specific first)
 [[redirects]]
   from = "/ko/blog/post/*"
   to = "/blog/post.html"
   status = 200
 
 [[redirects]]
-  from = "/es/about/*"
-  to = "/about.html"
-  status = 200
-[[redirects]]
-  from = "/es/linkers/*"
-  to = "/linkers.html"
-  status = 200
-[[redirects]]
-  from = "/es/contact/*"
-  to = "/contact.html"
-  status = 200
-[[redirects]]
-  from = "/es/get-involved/*"
-  to = "/get-involved.html"
-  status = 200
-[[redirects]]
-  from = "/es/blog/*"
+  from = "/ko/blog/*"
   to = "/blog/index.html"
   status = 200
+
+[[redirects]]
+  from = "/ko/about/*"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/ko/linkers/*"
+  to = "/linkers.html"
+  status = 200
+
+[[redirects]]
+  from = "/ko/contact/*"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/ko/get-involved/*"
+  to = "/get-involved.html"
+  status = 200
+
+# Korean catch-all LAST
+[[redirects]]
+  from = "/ko/*"
+  to = "/index.html"
+  status = 200
+
+# Spanish (specific first)
 [[redirects]]
   from = "/es/blog/post/*"
   to = "/blog/post.html"
   status = 200
 
 [[redirects]]
-  from = "/zh/about/*"
+  from = "/es/blog/*"
+  to = "/blog/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/about/*"
   to = "/about.html"
   status = 200
+
 [[redirects]]
-  from = "/zh/linkers/*"
+  from = "/es/linkers/*"
   to = "/linkers.html"
   status = 200
+
 [[redirects]]
-  from = "/zh/contact/*"
+  from = "/es/contact/*"
   to = "/contact.html"
   status = 200
+
 [[redirects]]
-  from = "/zh/get-involved/*"
+  from = "/es/get-involved/*"
   to = "/get-involved.html"
   status = 200
+
+# Spanish catch-all LAST
+[[redirects]]
+  from = "/es/*"
+  to = "/index.html"
+  status = 200
+
+# Chinese (specific first)
+[[redirects]]
+  from = "/zh/blog/post/*"
+  to = "/blog/post.html"
+  status = 200
+
 [[redirects]]
   from = "/zh/blog/*"
   to = "/blog/index.html"
   status = 200
+
 [[redirects]]
-  from = "/zh/blog/post/*"
-  to = "/blog/post.html"
+  from = "/zh/about/*"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/zh/linkers/*"
+  to = "/linkers.html"
+  status = 200
+
+[[redirects]]
+  from = "/zh/contact/*"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/zh/get-involved/*"
+  to = "/get-involved.html"
+  status = 200
+
+# Chinese catch-all LAST
+[[redirects]]
+  from = "/zh/*"
+  to = "/index.html"
   status = 200

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="blog_hero_title">Blog</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script defer src="/assets/js/main.js"></script>
+  <script defer src="/assets/js/blog.js"></script>
+</head>
+<body class="page-blog">
+  <a class="skip-link" href="#main" data-i18n="skip_to_content">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="/index.html">
+        <span class="logo-mark" data-i18n="logo_mark">GMS</span>
+        <span class="logo-text" data-i18n="site_name">GoodMind Society</span>
+      </a>
+      <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="primary-nav" data-i18n-aria="nav_toggle_label">
+        <span class="nav-toggle-line" aria-hidden="true"></span>
+        <span class="sr-only" data-i18n="nav_toggle_label">Toggle navigation</span>
+      </button>
+      <nav class="site-nav" id="primary-nav" data-nav>
+        <ul class="nav-list">
+          <li><a href="/index.html" data-i18n="nav_home">Home</a></li>
+          <li><a href="/about.html" data-i18n="nav_about">About</a></li>
+          <li><a href="/linkers-2.html" data-i18n="nav_linkers">Linkers 2.0</a></li>
+          <li><a href="/contact.html" data-i18n="nav_contact">Contact</a></li>
+          <li><a href="/get-involved.html" data-i18n="nav_get_involved">Get Involved</a></li>
+          <li class="nav-lang">
+            <label class="lang-label" for="langSelect" data-i18n="nav_language_label">Language</label>
+            <select class="lang-select" id="langSelect" name="lang" data-i18n-aria="nav_language_label">
+              <option value="en" data-i18n="lang_en">Eng</option>
+              <option value="ko" data-i18n="lang_ko">Korean</option>
+              <option value="es" data-i18n="lang_es">Spanish</option>
+              <option value="zh" data-i18n="lang_zh">Chinese</option>
+            </select>
+          </li>
+        </ul>
+        <a class="btn btn-primary" href="https://donate.stripe.com/5kQ28q0THewy9TufVR6J201" data-i18n="nav_donate">Donate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content reveal">
+          <h1 data-i18n="blog_hero_title">Blog</h1>
+          <p data-i18n="blog_hero_intro">Updates, reflections, and field notes from GoodMind Society.</p>
+        </div>
+        <div class="hero-media reveal" role="img" data-i18n-aria="hero_media_label" aria-label="Abstract hero panel"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title reveal" data-i18n="blog_list_title">Latest posts</h2>
+        <div id="blogList" class="blog-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-title" data-i18n="site_name">GoodMind Society</div>
+          <p data-i18n="footer_mission">GoodMind Society supports community-led learning and gentle connection.</p>
+          <div class="footer-title" data-i18n="footer_contact_label">Contact</div>
+          <a href="mailto:pilgrimbird@gmail.com" data-i18n="contact_email">pilgrimbird@gmail.com</a>
+        </div>
+        <div>
+          <div class="footer-title" data-i18n="footer_content_label">Content</div>
+          <ul class="footer-links list-reset">
+            <li><a href="/index.html" data-i18n="nav_home">Home</a></li>
+            <li><a href="/about.html" data-i18n="nav_about">About</a></li>
+            <li><a href="/linkers-2.html" data-i18n="nav_linkers">Linkers 2.0</a></li>
+            <li><a href="/contact.html" data-i18n="nav_contact">Contact</a></li>
+            <li><a href="/get-involved.html" data-i18n="nav_get_involved">Get Involved</a></li>
+            <li><a href="/blog/index.html" data-i18n="footer_blog">Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-title" data-i18n="footer_legal_label">Legal</div>
+          <ul class="footer-links list-reset">
+            <li><a href="/legal-privacy.html" data-i18n="footer_privacy">Privacy Policy</a></li>
+            <li><a href="/legal-terms.html" data-i18n="footer_terms">Terms of Use</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-title" data-i18n="footer_social_label">Social</div>
+          <ul class="footer-links list-reset">
+            <li><a href="#" data-i18n="footer_instagram" data-i18n-aria="footer_instagram">Instagram</a></li>
+            <li><a href="#" data-i18n="footer_youtube" data-i18n-aria="footer_youtube">YouTube</a></li>
+            <li><a href="#" data-i18n="footer_facebook" data-i18n-aria="footer_facebook">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom" data-i18n="footer_copyright">© 2026 GoodMind Society. All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>

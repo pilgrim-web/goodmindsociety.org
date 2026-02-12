@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Abstract seed and roots">
+  <rect width="640" height="480" fill="none"/>
+  <!-- ground line -->
+  <line x1="100" y1="190" x2="540" y2="190" stroke="#707070" stroke-opacity="0.35" stroke-width="4" stroke-linecap="round"/>
+  <!-- seed -->
+  <g>
+    <ellipse cx="320" cy="170" rx="18" ry="12" fill="#bbfab1" fill-opacity="0.85" stroke="#707070" stroke-opacity="0.35" stroke-width="3"/>
+    <line x1="320" y1="182" x2="320" y2="210" stroke="#707070" stroke-opacity="0.55" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <!-- roots -->
+  <g fill="none" stroke="#707070" stroke-opacity="0.60" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M320 210 C300 235, 270 250, 250 275"/>
+    <path d="M320 210 C340 235, 370 250, 390 275"/>
+    <path d="M320 225 C315 255, 315 285, 320 320"/>
+    <path d="M250 275 C235 295, 220 315, 205 340"/>
+    <path d="M390 275 C405 295, 420 315, 435 340"/>
+  </g>
+  <!-- subtle cross (very minimal, geometric) -->
+  <g stroke="#707070" stroke-opacity="0.25" stroke-width="4" stroke-linecap="round">
+    <line x1="320" y1="95" x2="320" y2="140"/>
+    <line x1="298" y1="118" x2="342" y2="118"/>
+  </g>
+  <!-- anchor frame -->
+  <rect x="150" y="85" width="340" height="310" rx="24" fill="none" stroke="#707070" stroke-opacity="0.18" stroke-width="5"/>
+</svg>

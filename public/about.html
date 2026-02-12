@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title data-i18n="about.hero.title">About Us</title>
+    <title>About</title>
     <link rel="stylesheet" href="/assets/css/main.css" />
     <script defer src="/assets/js/main.js"></script>
     <style>
@@ -15,6 +15,80 @@
         background-image:
           var(--hero-image-about),
           linear-gradient(180deg, var(--hero-fill), var(--hero-fill));
+      }
+
+      .about-article {
+        padding: clamp(2.5rem, 5vw, 4.5rem) 0 clamp(4rem, 7vw, 6rem);
+      }
+
+      .about-block {
+        display: grid;
+        grid-template-columns: 1.6fr 1fr;
+        gap: clamp(1.5rem, 3vw, 3rem);
+        align-items: stretch;
+        padding: clamp(2rem, 4vw, 3.25rem) 0;
+        border-top: 1px solid rgba(112, 112, 112, 0.25);
+      }
+
+      .about-block:first-child {
+        border-top: 0;
+        padding-top: 0;
+      }
+
+      .about-block__text {
+        max-width: 60ch;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.85rem;
+      }
+
+      .about-block__text h2 {
+        font-size: clamp(1.35rem, 2.2vw, 1.9rem);
+        line-height: 1.25;
+      }
+
+      .about-block__text p {
+        font-size: clamp(1rem, 1.25vw, 1.08rem);
+        line-height: 1.85;
+      }
+
+      .about-block__art {
+        display: flex;
+        align-items: stretch;
+      }
+
+      .about-block__art svg {
+        width: 100%;
+        height: 100%;
+        min-height: 220px;
+        display: block;
+      }
+
+      @media (max-width: 980px) {
+        .about-block {
+          grid-template-columns: 1.3fr 1fr;
+        }
+      }
+
+      @media (max-width: 740px) {
+        .about-article {
+          padding: 2.5rem 0 3.5rem;
+        }
+
+        .about-block {
+          grid-template-columns: 1fr;
+          gap: 1.1rem;
+          padding: 2rem 0;
+        }
+
+        .about-block__art {
+          order: 2;
+        }
+
+        .about-block__art svg {
+          min-height: 180px;
+        }
       }
     </style>
   </head>
@@ -65,8 +139,8 @@
       <section class="hero">
         <div class="container hero__inner">
           <div class="hero__content stack reveal">
-            <h1 data-i18n="about.hero.title">About Us</h1>
-            <p data-i18n="about.hero.subtitle">Who we are and why we serve.</p>
+            <h1>About</h1>
+            <p>Education is transformation—and dignity begins with access.</p>
           </div>
           <div
             class="hero__media reveal"
@@ -78,87 +152,182 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="about-article">
         <div class="container">
-          <div class="section__header stack reveal">
-            <h2 data-i18n="about.introduce.title">Introduce us</h2>
-            <p data-i18n="about.introduce.lead">A simple introduction in 50 short sentences.</p>
-          </div>
-          <ol class="card stack reveal">
-            <li>We are a nonprofit focused on human dignity.</li>
-            <li>We believe learning should be practical and respectful.</li>
-            <li>We work with communities, not above them.</li>
-            <li>We listen before we design programs.</li>
-            <li>We begin with local priorities.</li>
-            <li>We value consistency over quick wins.</li>
-            <li>We keep our methods simple and clear.</li>
-            <li>We aim for long-term usefulness.</li>
-            <li>We support learners of different ages.</li>
-            <li>We welcome diverse backgrounds and perspectives.</li>
-            <li>We encourage thoughtful communication.</li>
-            <li>We avoid promises we cannot keep.</li>
-            <li>We define progress through daily practice.</li>
-            <li>We build trust through reliable follow-up.</li>
-            <li>We coordinate with local partners carefully.</li>
-            <li>We see education as shared responsibility.</li>
-            <li>We create spaces where questions are welcome.</li>
-            <li>We use language that is direct and kind.</li>
-            <li>We keep people informed about next steps.</li>
-            <li>We prioritize safety and respect in every meeting.</li>
-            <li>We design programs that can adapt over time.</li>
-            <li>We document what works and what does not.</li>
-            <li>We improve through reflection and feedback.</li>
-            <li>We support mentors with practical guidance.</li>
-            <li>We support families with clear resources.</li>
-            <li>We help organizations align around shared goals.</li>
-            <li>We encourage collaboration across sectors.</li>
-            <li>We keep costs transparent and intentional.</li>
-            <li>We protect mission focus when making decisions.</li>
-            <li>We build partnerships on trust and clarity.</li>
-            <li>We treat every participant with care.</li>
-            <li>We respect time and commitments.</li>
-            <li>We celebrate steady effort.</li>
-            <li>We avoid unnecessary complexity.</li>
-            <li>We seek solutions that can be maintained.</li>
-            <li>We align strategy with real community needs.</li>
-            <li>We believe good systems should serve people.</li>
-            <li>We believe progress can be calm and deliberate.</li>
-            <li>We hold ourselves accountable to our values.</li>
-            <li>We encourage responsible leadership.</li>
-            <li>We invest in capability, not dependency.</li>
-            <li>We prefer shared learning to one-way instruction.</li>
-            <li>We support thoughtful action in difficult moments.</li>
-            <li>We welcome volunteers ready to serve with humility.</li>
-            <li>We believe small actions can shape strong futures.</li>
-            <li>We build routines that people can sustain.</li>
-            <li>We measure outcomes with honesty.</li>
-            <li>We remain open to better approaches.</li>
-            <li>We continue learning while we serve.</li>
-            <li>We exist to help communities thrive with dignity.</li>
-          </ol>
-        </div>
-      </section>
+          <article class="about-block">
+            <div class="about-block__text">
+              <h2>Where I Started</h2>
+              <p>
+                I grew up without the privilege of timely education. Poverty limited not only resources but
+                opportunity, and the path that seems ordinary for many children often remained out of reach. Much of
+                my early life was shaped by isolation and quiet endurance, learning to keep moving even when no one
+                noticed. Those years taught me how easily a child's future can narrow before it has a fair chance to
+                open.
+              </p>
+            </div>
+            <div class="about-block__art" aria-hidden="true">
+              <svg viewBox="0 0 320 260" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <line x1="70" y1="22" x2="70" y2="238" stroke="rgba(112, 112, 112, 0.78)" stroke-width="2"></line>
+                <rect
+                  x="94"
+                  y="34"
+                  width="172"
+                  height="54"
+                  fill="rgba(187, 250, 177, 0.2)"
+                  stroke="rgba(112, 112, 112, 0.62)"
+                  stroke-width="2"
+                ></rect>
+                <rect
+                  x="114"
+                  y="104"
+                  width="152"
+                  height="54"
+                  fill="none"
+                  stroke="rgba(112, 112, 112, 0.56)"
+                  stroke-width="2"
+                ></rect>
+                <rect
+                  x="134"
+                  y="174"
+                  width="132"
+                  height="54"
+                  fill="rgba(187, 250, 177, 0.14)"
+                  stroke="rgba(112, 112, 112, 0.56)"
+                  stroke-width="2"
+                ></rect>
+              </svg>
+            </div>
+          </article>
 
-      <section class="section">
-        <div class="container">
-          <div class="section__header stack reveal">
-            <h2>Framework</h2>
-            <p>Our work is grounded in practical resources, capable teams, and a clear philosophy.</p>
-          </div>
-          <div class="grid grid--3">
-            <article class="card stack reveal">
-              <h3>Resources</h3>
-              <p>We provide simple tools, guides, and shared materials that local teams can use immediately.</p>
-            </article>
-            <article class="card stack reveal">
-              <h3>Capability</h3>
-              <p>We strengthen people through mentoring, repetition, and small systems that support daily execution.</p>
-            </article>
-            <article class="card stack reveal">
-              <h3>Philosophy</h3>
-              <p>We work with humility, responsibility, and long-term commitment to meaningful community progress.</p>
-            </article>
-          </div>
+          <article class="about-block">
+            <div class="about-block__text">
+              <h2>Education Changes a Person</h2>
+              <p>
+                Education, I have learned, is more than knowledge. It is transformation. It teaches a child not only
+                what to think, but how to think. It builds judgment, discipline, empathy, and courage. It shapes not
+                only intelligence, but character. In that sense, education is nothing short of a miracle, because it
+                changes not only what a person knows, but who a person becomes.
+              </p>
+            </div>
+            <div class="about-block__art" aria-hidden="true">
+              <svg viewBox="0 0 320 260" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <rect
+                  x="74"
+                  y="62"
+                  width="168"
+                  height="136"
+                  fill="none"
+                  stroke="rgba(112, 112, 112, 0.78)"
+                  stroke-width="2"
+                ></rect>
+                <circle
+                  cx="192"
+                  cy="130"
+                  r="72"
+                  fill="rgba(187, 250, 177, 0.16)"
+                  stroke="rgba(112, 112, 112, 0.62)"
+                  stroke-width="2"
+                ></circle>
+                <line x1="34" y1="130" x2="286" y2="130" stroke="rgba(112, 112, 112, 0.52)" stroke-width="2"></line>
+              </svg>
+            </div>
+          </article>
+
+          <article class="about-block">
+            <div class="about-block__text">
+              <h2>Speed, Progress, and the Question We Miss</h2>
+              <p>
+                Meanwhile, the world moves at astonishing speed. From engines and aircraft to computers and artificial
+                intelligence, human progress accelerates through science, mathematics, and innovation. Technology
+                extends life, expands wealth, and reshapes economies. History feels less like a marathon and more like
+                a sprint. But somewhere along the way, we forgot two questions: How fast are we moving? And who is
+                falling behind?
+              </p>
+            </div>
+            <div class="about-block__art" aria-hidden="true">
+              <svg viewBox="0 0 320 260" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <line x1="28" y1="202" x2="200" y2="36" stroke="rgba(112, 112, 112, 0.8)" stroke-width="2"></line>
+                <line x1="62" y1="230" x2="232" y2="66" stroke="rgba(112, 112, 112, 0.66)" stroke-width="2"></line>
+                <line x1="96" y1="230" x2="266" y2="98" stroke="rgba(112, 112, 112, 0.56)" stroke-width="2"></line>
+                <polygon
+                  points="210,36 286,36 286,112"
+                  fill="rgba(187, 250, 177, 0.16)"
+                  stroke="rgba(112, 112, 112, 0.62)"
+                  stroke-width="2"
+                ></polygon>
+              </svg>
+            </div>
+          </article>
+
+          <article class="about-block">
+            <div class="about-block__text">
+              <h2>Access Shapes Destiny</h2>
+              <p>
+                In this global race, the winners accumulate resources, capital, and influence. Yet many children begin
+                far behind the starting line, without access to stable education, technology, or opportunity. The
+                difference is not intelligence. It is access. And that difference shapes destiny. No one can rebalance
+                the world. But I can choose to change one life.
+              </p>
+            </div>
+            <div class="about-block__art" aria-hidden="true">
+              <svg viewBox="0 0 320 260" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <rect
+                  x="48"
+                  y="34"
+                  width="224"
+                  height="192"
+                  fill="none"
+                  stroke="rgba(112, 112, 112, 0.76)"
+                  stroke-width="2"
+                ></rect>
+                <line x1="160" y1="34" x2="160" y2="226" stroke="rgba(112, 112, 112, 0.58)" stroke-width="2"></line>
+                <line x1="48" y1="130" x2="272" y2="130" stroke="rgba(112, 112, 112, 0.58)" stroke-width="2"></line>
+                <rect
+                  x="174"
+                  y="144"
+                  width="82"
+                  height="66"
+                  fill="rgba(187, 250, 177, 0.2)"
+                  stroke="rgba(112, 112, 112, 0.56)"
+                  stroke-width="2"
+                ></rect>
+              </svg>
+            </div>
+          </article>
+
+          <article class="about-block">
+            <div class="about-block__text">
+              <h2>Let's Go Together</h2>
+              <p>
+                If one child gains fair access to education, that child gains more than knowledge; they gain
+                confidence, mobility, and possibility. Helping one child is not a small act. It is a quiet form of
+                justice. This conviction did not come from theory. It came from memory, from knowing what it feels
+                like to begin behind. And so I hold onto one phrase: "Let's go together. Let's get this together."
+                Because true progress is never built alone. It is built when we refuse to move forward without looking
+                back.
+              </p>
+            </div>
+            <div class="about-block__art" aria-hidden="true">
+              <svg viewBox="0 0 320 260" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <path
+                  d="M106 82 h68 v96 h-68 z M174 98 h74 v96 h-74 z"
+                  fill="none"
+                  stroke="rgba(112, 112, 112, 0.76)"
+                  stroke-width="2"
+                ></path>
+                <rect
+                  x="144"
+                  y="118"
+                  width="36"
+                  height="36"
+                  fill="rgba(187, 250, 177, 0.22)"
+                  stroke="rgba(112, 112, 112, 0.58)"
+                  stroke-width="2"
+                ></rect>
+                <line x1="84" y1="202" x2="266" y2="202" stroke="rgba(112, 112, 112, 0.52)" stroke-width="2"></line>
+              </svg>
+            </div>
+          </article>
         </div>
       </section>
     </main>
